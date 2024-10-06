@@ -1,0 +1,24 @@
+  // Please note that this is just an example and all the data need to be dynamically generated from the backend when placing each order, even with the free bundle.
+window.dataLayer.push({
+    'event': 'purchase',
+    'ecommerce': {
+      'transaction_id': 'T12345',
+      'value': 249.99,
+      'currency': 'SAR',
+      'coupon': 'FIRST10',
+      'items': [
+        {
+          'item_id': '12345',
+          'item_name': 'Diamond Bundle',
+          'price': 199,
+          'quantity': 1
+        },
+        {
+          'item_id': 'X67890',
+          'item_name': 'Professional CV Writing',
+          'price': 150.00,
+          'quantity': 1
+        }
+      ]
+    }
+  });
