@@ -1,0 +1,7 @@
+window.dataLayer.push({
+    'event': 'company_registration',
+    'company_info': {
+      'company_url': 'www.example.com', // URL of the company
+      'owner_email': 'Faisal@example.com', // Owner's Email
+    }
+  });  
